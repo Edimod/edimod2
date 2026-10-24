@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="main.css">
+
+    <style>
+        
+body {
+            background-color: #0d0d0d;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            overflow-y: auto !important; /* Wymusza działanie paska przewijania */
+            height: 100vh;
+        }
+        a, button, input {
+            cursor: none !important;
+        }
+        .terms-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            background: #000000;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            box-sizing: border-box;
+            border-bottom: 1px solid #222222;
+        }
+        .terms-logo {
+            color: #ffffff;
+            font-size: 22px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        .terms-logo:hover {
+            color: #ff3366;
+        }
+        #language-button {
+            background: #1a1a1a;
+            color: #ffffff;
+            border: 1px solid #333333;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 14px;
+            transition: all 0.2s ease;
+        }
+        #language-button:hover {
+            background: #2a2a2a;
+            border-color: #555555;
+            color: #ff3366;
+        }
+        .terms-content {
+            max-width: 800px;
+            margin: 90px auto 50px auto;
+            padding: 35px;
+            background: #111111;
+            border: 1px solid #222222;
+            border-radius: 12px;
+            color: #dddddd;
+            line-height: 1.6;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+        .terms-content h1 {
+            font-size: 32px;
+            color: #ffffff;
+            margin-top: 0;
+            border-bottom: 2px solid #222222;
+            padding-bottom: 15px;
+        }
+        .terms-content .last-updated {
+            font-size: 13px;
+            color: #888888;
+            margin-bottom: 30px;
+        }
+        .terms-content h2 {
+            font-size: 18px;
+            color: #ffffff;
+            margin-top: 25px;
+            margin-bottom: 8px;
+        }
+        .terms-content p {
+            font-size: 15px;
+            color: #cccccc;
+            margin-bottom: 15px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background: #1a1a1a;
+            color: #ffffff;
+            text-decoration: none;
+            border: 1px solid #333333;
+            border-radius: 6px;
+            font-size: 14px;
+            transition: all 0.2s ease;
+        }
+        .back-link:hover {
+            background: #252525;
+            border-color: #ff3366;
+            color: #ff3366;
+            transform: translateX(-3px);
+        }
+    </style>
+</head>
+<body>
+
+
+
+<!-- Główna treść regulaminu -->
+<main class="terms-content">
+
+    <h2>What you need</h2>
+    <p>A laptop or computer capable of booting from a USB drive and equipped with an x86 BIOS,2. A Windows-based device with the Rufus© program installed (we will use it to install this OS, which you can download from the website),This operating system was tested on a Samsung R530—don't worry, it's a laptop..</p>
+
+    <h2>What’s next</h2>
+    <p>If you have already downloaded the system from that website, make sure that it is in .iso format,(This guide has been updated for 2026; to ensure full compatibility, please install the version rufus-4.15.exe). Insert your USB drive into your device. Under the "Device" menu, select your USB flash drive. In the "Boot selection" section, choose our system (ISO) file. Select "MBR" and "BIOS" (these should be set automatically), then click "Start" and confirm all prompts by clicking "OK."
+.</p>
+
+    <h2>What are the next steps after creating a bootable USB using Rufus©?</h2>
+    <p>On device 2 (where you are installing the system), enter the BIOS—this is usually done by pressing keys like DEL, F2, or F8 (in my case, it was F2). In any case, the correct key will be indicated on the screen once you are in the BIOS.
+.</p>
+
+    <h2>I’m in the BIOS nowww</h2>
+    <p>Select the "Boot" tab and set the USB flash drive (containing the ISO file) as the first boot device; save your changes—in my case, this was done by pressing F10—and exit the BIOS. The laptop should then boot from our system..</p>
+
+    <h2>The end</h2>
+    <p>end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end,end.</p>
+</main>
+</script>
+</body>
+</html>

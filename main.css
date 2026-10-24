@@ -1,0 +1,121 @@
+/* Styl minimalistyczny / terminalowy / hakerski */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: monospace, monospace;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 380px;
+    padding: 24px;
+    border: 1px solid #2a2a2a;
+    background-color: #181818;
+}
+
+header {
+    margin-bottom: 24px;
+}
+
+.tag {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888;
+    background: #222;
+    padding: 2px 6px;
+    border: 1px solid #333;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+p {
+    font-size: 0.85rem;
+    color: #999;
+    margin-top: 4px;
+}
+
+.download-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+label {
+    font-size: 0.8rem;
+    color: #bbb;
+    text-transform: uppercase;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    background: #0d0d0d;
+    color: #fff;
+    border: 1px solid #333;
+    font-family: inherit;
+    font-size: 0.9rem;
+    outline: none;
+    cursor: pointer;
+    /* Strzałka została usunięta - teraz jest domyślna dla systemu/przeglądarki */
+}
+
+select:focus {
+    border-color: #666;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #ffffff;
+    color: #000000;
+    border: none;
+    font-family: inherit;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: background 0.1s;
+}
+
+button:hover {
+    background: #cccccc;
+}
+
+button:active {
+    background: #999999;
+}
+
+footer {
+    margin-top: 24px;
+    border-top: 1px solid #222;
+    padding-top: 12px;
+    text-align: center;
+}
+
+footer code {
+    font-size: 0.75rem;
+    color: #666;
+}

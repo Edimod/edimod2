@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdimodOS - Download</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <main class="wrapper">
+        <header>
+            <span class="tag">ISO Image</span>
+            <h1>EdimodOS Systems</h1>
+            <p>You don't know how to launch it.</p> <a href="howtolaunch.html">click here!</a>
+
+        </header>
+
+        <section class="download-box">
+            <div class="field">
+                <label for="os-select">Verson:</label>
+                <select id="os-select">
+                    <option value="odioelchocolate.mp4">EdimodOS</option>
+                    <option value="edimodos-plus.iso">EdimodOS+</option>
+                </select>
+            </div>
+
+            <button type="button" onclick="pobierzPlik()">Download Image</button>
+        </section>
+
+        <footer>
+            <code>recommended | bios x86_64</code>
+        </footer>
+    </main>
+
+    <script>
+        function pobierzPlik() {
+            const select = document.getElementById('os-select');
+            const file = select.value;
+
+            const a = document.createElement('a');
+            a.href = file;
+            a.download = file;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+    </script>
+
+</body>
+</html>
